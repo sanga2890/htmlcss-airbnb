@@ -3,3 +3,56 @@
     padding: : 0;
     box-sizing: border-box;
 }
+
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+div{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 4px;
+    position: absolute;
+
+}
+
+.tokyo {
+    background-image: url(img/tokyo.jpg);
+    background-size: cover;
+    position: relative;
+    border: 2px solid;
+    box-shadow: 2px 2px 3px grey;
+
+}
+
+.bergamo{
+    background-image: url(img/bergamo.jpg);
+    background-size: cover;
+    position: relative;
+    border: 2px solid;
+    box-shadow: 2px 2px 3px grey;
+}
+
+
+.istanbul{
+    background-image: url(img/istanbul.jpg);
+    background-size: cover;
+    position: relative;
+    border: 2px solid;
+    box-shadow: 2px 2px 3px grey;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 3px grey;
+}
